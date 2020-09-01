@@ -469,7 +469,20 @@
 						}
 		
 		
-						
+
+						$.ajax({
+							url: "https://api.studymonk.in/forms",
+							data: {email: field1, name: field2, phone: field3, site: field4, other: field5},
+							type: "POST",
+							success: function(d)
+							{
+								console.log(d);
+								
+							},
+							error: function(x, y, z)
+								{
+							}
+						});						
 			
 						$.ajax({
 							url: "https://docs.google.com/forms/u/0/d/e/1FAIpQLSecr8qQXvAFZQ3caV9dhk6dPMgAUowODBL-jCYO9BpFIjRMyQ/formResponse?",
@@ -481,11 +494,8 @@
 							},
 							error: function(x, y, z)
 								{
-		
 									$('#success-msg').show();
-									
-									
-								}
+																	}
 						});
 						return false;
 					}
