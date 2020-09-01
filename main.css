@@ -509,7 +509,7 @@
 .button--accent-outline .icon svg .style-blue-3 *,
 .style-blue-3 .button--accent-outline .button__system_icon svg *,
 .button--accent-outline .button__system_icon svg .style-blue-3 * {
-    fill: #508de8
+    fill: f90473
 }
 
 .style-blue-3 .fill-secondary {
@@ -522,7 +522,7 @@
 }
 
 .style-blue-3 .stroke-main {
-    stroke: #508de8
+    stroke: #f90473
 }
 
 .style-blue-3 .border-main,
@@ -560,7 +560,7 @@
 .bg-medium-color .style-blue-3 .steps-01__number,
 .style-blue-3 .bg-light-color .steps-01__number,
 .bg-light-color .style-blue-3 .steps-01__number {
-    border-color: #508de8
+    border-color: #f90473
 }
 
 .style-blue-3 .color-main,
@@ -592,7 +592,7 @@
 .style-blue-3 .code-02__info_prefix,
 .style-blue-3 .features-17__item .feature__title_text,
 .features-17__item .style-blue-3 .feature__title_text {
-    color: #508de8
+    color: #f90473
 }
 
 .style-blue-3 .color-main-hover:hover,
@@ -631,7 +631,7 @@
 .bg-medium-color .style-blue-3 .steps-01__list:before,
 .style-blue-3 .bg-light-color .steps-01__list:before,
 .bg-light-color .style-blue-3 .steps-01__list:before {
-    background-color: #508de8
+    background-color: #f90473
 }
 
 .style-blue-3 .bg-light,
@@ -3172,9 +3172,8 @@ html .comps {
     -ms-text-size-adjust: 100%;
     -ms-overflow-style: scrollbar
 }
-
 body {
-    background-color: white;
+    background-color: #f90473;
     -webkit-font-smoothing: antialiased;
     color: #3d3d3d
 }
@@ -3816,7 +3815,7 @@ body .page-component__bg_overlay_box {
 .style-blue-3 .bg-accent-color .footer-04,
 .style-blue-3 .bg-accent-color .footer-02,
 .style-blue-3 .bg-accent-color .text--01__box {
-    background-color: #508de8
+    background-color: #f90473
 }
 
 .style-blue-4 .bg-accent-color .page-component__bg_overlay_box:not(.page-component__bg_overlay_box--always-white),
